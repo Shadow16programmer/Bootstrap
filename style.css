@@ -1,0 +1,230 @@
+body{
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+html{
+    overflow-y: scroll;
+}
+
+.container-fluid-1{
+    
+    padding:1.5% 15% 3%;
+}
+.title{
+       padding-bottom: 6rem;
+}
+.title h1{
+    font-size: 3rem;
+    font-family:  'Montserrat', sans-serif;
+    color:black;
+    line-height: 1.5;
+}
+
+.nav-item{
+    padding:0 15px;
+}
+.title button{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    text-align: center;
+   
+}
+#apple{
+    padding-left: 2rem;
+    padding-right: 1.95rem;
+}
+#hi{
+     background-image: url('pic.jpg');
+     background-size: contain;
+     background-repeat:no-repeat ;
+     height:17rem;
+     padding: 6em;
+}
+
+.hello1{
+    
+   padding-top:5rem;
+   padding-bottom:7rem;
+}
+.hello1 i{
+    margin-top: 1rem;
+}
+.d1{
+    height:15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem auto 0;
+}
+
+/* review section */
+
+.review{
+  
+    text-align: center;
+    
+}
+#dog-review{
+    padding:7% 15%;
+    height:45rem;
+}
+#review-text{
+    font-size: 2.3rem;
+    font-family: 'Agbalumo', sans-serif;
+    font-weight: bolder;
+    color:white;
+    word-spacing: 0.5rem;
+    line-height: 4rem;
+}
+#dog3{
+    width:40%;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+
+
+/* brand section  */
+
+.brands{
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+}
+#text1{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.img1{
+    margin-top: 3rem;
+     min-width: 12rem;
+    max-width: 14rem; 
+}
+
+
+   
+/* pricing */
+
+.pricing{
+    margin-top: 4rem;
+}
+.pricing ul li{
+    color:grey;
+
+}
+.pricing h4{
+    font-weight: bold;
+}
+.pricing .cards{
+    border:1px solid grey;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+ 
+  
+  
+}
+
+.card-deck{
+    padding:2% 15%;
+}
+#game{
+   min-width: 10rem;
+   max-width: 14rem;
+   position: absolute;
+   bottom: 1rem;
+ 
+}
+.pricing h3{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'ubuntu','sans-serif';
+}
+.pricing p{
+    text-align: center;
+    color: grey;
+    font-size: 1rem;
+}
+
+/* end section  */
+.d5{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 8% 10%;
+}
+.d5 h2{
+    font-size: 4rem;
+    color: white;
+    font-family: 'ubuntu','sans-serif';
+}
+.d5 button{
+    margin-top: 3rem;
+}
+
+
+
+
+/* footer  */
+#i3{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.footer{
+    text-align: center;
+    color:  #004080;
+    padding:2rem 0;
+}
+.links{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 0.7rem;
+}
+.footer a{
+    text-decoration: none;
+    color: #004080;
+}
+
+/* footer ending  */
+
+
+
+
+/* media queries */
+
+@media (max-width:586px){
+    
+    .pet{
+        display: block;
+        padding: 0;
+    }
+    .img1{
+        width:15rem;
+        margin-top: 0rem;
+       
+    }
+}
+@media (min-width:800px) and (max-width:992px){
+    .title{
+        text-align: center;
+    }
+    .title img{
+        margin: 0 auto;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+    }
+    #hi{
+        width:25rem;
+        margin-left: 2rem;
+    }
+}
+
+/* media queries */

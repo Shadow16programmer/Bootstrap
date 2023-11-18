@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto+Slab&display=swap');
+</style>
+  
+</head>
+<body>
+
+  <div class="container-fluid-1 bg-warning">
+
+  <nav class="navbar navbar-light navbar-expand-lg bg-warning">
+   
+    <span class="navbar-brand ml-4" style="font-size: 3.5rem;font-family: 'ubuntu',sans-serif; font-weight: bold;">tindog</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#a1" class="nav-link">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#a2" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="#a3" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#a4" class="nav-link">Download</a>
+        </li>
+      </ul>
+    </div>
+   
+  </nav>  
+ 
+  <div class="title row bg-warning pt-5" style="margin-top:1rem ;margin-bottom: 2rem;" >
+    <div class="col-lg-6 pl-5 game" >
+      <h1> Find the best parthner for your dogs </h1>
+      <button class="btn btn-outline-primary btn-md mb-4">Download Android <i class="fa-brands fa-android fa-lg"></i> </button>
+      <button  class="btn btn-outline-primary btn-md mb-4" id="apple">Download IOS <i class="fa-brands fa-apple fa-lg"></i></button>
+    </div>
+    <div class="col-lg-6 col-md-12 name">
+      <div id="hi"></div>
+     
+    </div>
+</div>
+  </div>
+
+  <!-- festures -->
+
+  <div class="row hello1 container-fluid">
+    <div class="col-lg-4" style="text-align: center;">
+       <div class="d1 rounded-circle bg-warning ">
+        <i class="fa-solid fa-check fa-2xl" style="color: white;font-size: 4rem;"></i>
+       </div>
+       <span class="t1" style="font-size: 2rem; font-weight: bold;"> Easy to use</span> <br>
+       <span class="t2" style="color:grey"> So easy even you dog can do it</span>
+      </div>
+      <div class="col-lg-4" style="text-align: center;">
+        <div class="d1 rounded-circle bg-warning">
+          <i class="fa-brands fa-algolia fa-2xl " style="color: white;font-size: 4rem;" ></i>
+        </div>
+        <span class="t1" style="font-size: 2rem; font-weight: bold;"> Elite variety</span> <br>
+        <span class="t2"  style="color:grey"> We have all kinds of dogs</span>
+      </div>
+         <div class="col-lg-4" style="text-align: center;">
+          <div class="d1 rounded-circle bg-warning">
+            <i class="fa-solid fa-heart fa-2xl" style="color: #ffffff; font-size: 5rem;"></i>
+          </div>
+          <span class="t1" style="font-size: 2rem; font-weight: bold;"> Guranteed to work</span> <br>
+        <span class="t2"  style="color:grey"> Find love of your dogs life</span>
+          </div>
+  </div>
+
+     <!-- features ending  -->
+
+
+     <!-- review -->
+
+   <section class="review bg-warning" id="a2">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+
+
+        <div class="carousel-item active" id="dog-review" >
+    <h2 id="review-text">"I have to no longer sniff other dog to find my true love as I have found the parthner of my life on tingdog."</h2>
+    <img src="dog3.jpg" alt="#" id="dog3"> <span style="color: #ffffff; font-family: 'Ubuntu','sans-serif'; font-size: 1.3rem;"> -Bruno New york </span>
+    </div>
+ 
+
+    <div class="carousel-item" id="dog-review">
+      <h2 id="review-text">"Now I don't feel lonely like before as I found someone whom I can spend my whole life with on tindog."</h2>
+         <img src="dog5.jpg" alt="#" id="dog3"> <span style="color: #ffffff; font-family: 'Ubuntu','sans-serif'; font-size: 1.3rem;"> -Emilyi New york </span>
+         </div>
+
+    <div class="carousel-item" id="dog-review">
+      <h2 id="review-text">"With tindog I have found my true friends and dogs whom I can say to be my Bestfriends.</h2>
+      <img src="dog4.jpg" alt="#" id="dog3"> <span style="color: #ffffff; font-family: 'Ubuntu','sans-serif'; font-size: 1.3rem;"> -Ham New york </span>
+      </div>
+
+      
+                                
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      
+    </a>
+    </div>
+
+
+   </section>
+
+   <!-- review ending  -->
+
+       <div class="brands bg-warning container-fluid row" style="margin: 0%;">
+        <p id="text1"> Our brand parthners</p>
+         <div class="col-lg-3   col-sm-6 pet" style="text-align: center;">
+        <img src="brand-1.png" alt="" class="img1" style="height:16rem;">
+        </div>
+        <div class="col-lg-3   col-sm-6 pet" style="text-align: center; display: flex;align-items: center;justify-content: center;">
+        <img src="brand-2.png" alt="" class="img1" style="height: 3.5rem;">
+        </div>
+        <div class="col-lg-3   col-sm-6 pet"  style="text-align: center;">
+        <img src="brand-3.png" alt="" class="img1" style="height: 16rem;">
+        </div>
+        <div class="col-lg-3  col-sm-6 pet"  style="text-align: center;">
+        <img src="brand-6.png" alt="" class="img1" style="height: 17rem;">
+        </div>
+       </div>
+
+         <section class="pricing  " id="a3">
+          <h3>A plan for every dog </h3>
+          <p>We can find the perfect match for your dog </p>
+          <div class="card-deck row ">
+          <div class="cards col-lg-4">
+            <div class="card-header" style="font-size: 2rem;font-weight: bold; font-family: 'Roboto Slab', serif;">Trial</div>
+            <div class="card-body">
+              <ul>
+                <h4>Free</h4>
+                <li>5 matches per day</li>
+                <li>10 messages per day</li>
+                <li> 2 calls per day</li>
+                <li> Period: 7 days</li>
+              </ul>
+              <button class="btn btn-info" id="game">Get Started</button>
+            </div>
+          </div>
+          <div class="cards col-lg-4">
+            <div class="card-header"  style="font-size: 2rem;font-weight: bold; font-family: 'Roboto Slab', serif;">Pro</div>
+            <div class="card-body">
+              <ul>
+                <h4>$49</h4>
+                <li>30 matches per day</li>
+                <li>unlimited messages per day</li>
+                <li> 10 calls per day</li>
+                <li> Period: 60 days</li>
+                <li>10 Video call per day</li>
+              </ul>
+              <button class="btn btn-info" id="game">Buy pro</button>
+            </div>
+          </div>
+          <div class="cards col-lg-4">
+            <div class="card-header"  style="font-size: 2rem;font-weight: bold; font-family: 'Roboto Slab', serif;">Premium</div>
+            <div class="card-body">
+              <ul>
+                <h4>$109</h4>
+                <li>unlimited matches per day</li>
+                <li>unlimited messages per day</li>
+                <li>unlimited calls per day</li>
+                <li>unlimited video call per day</li>
+                <li> Period: 365 days</li>
+                <li> 24/7 customer support </li>
+              
+              </ul>
+              <button class="btn btn-info" id="game">Buy Premium</button>
+            </div>
+          </div>
+          </div>
+         </section>
+
+         <!-- ending section  -->
+         <section class="end bg-warning " id="a4">
+          <div class="end-heading d5 container-fluid">
+            <h2>Find the true love of your dogs life</h2>
+            <button class="btn btn-outline-primary btn-md mb-4">Download Android <i class="fa-brands fa-android fa-lg"></i> </button>
+            <button  class="btn btn-outline-primary btn-md mb-4" id="apple">Download IOS <i class="fa-brands fa-apple fa-lg"></i></button> 
+
+           
+          
+          </div> 
+         </section>
+
+
+          <section class="footer" id="a1">
+            <span class="contact" style="font-size: 1rem;color: grey;display: block; ">Our Social Accounts</span>
+        <a href="#">    <i class="fa-brands fa-facebook links"></i> </a>
+          <a href="#">    <i class="fa-brands fa-pinterest links"></i> </a>
+            <a href="#">    <i class="fa-brands fa-twitter links"></i> </a>
+              <a href="#">     <i class="fa-brands fa-instagram links"></i> </a>
+            <a href="#">    <i class="fa-solid fa-copyright" style="color: #004080;" id="i3">  <span style="font-size: 1rem; color: #004080; font-family: arial,'sans-serif';"> All rigths reserved</span></i>
+          </section>
+   </body>
+   </html>
